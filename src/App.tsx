@@ -1,9 +1,9 @@
-import { Application } from "./components/application/Application";
+import { Skills } from "./components/skills/Skills";
 
 const App = () => {
 	return (
 		<div className='App'>
-			<Application />
+			<Skills skills={["HTML", "CSS", "Javascript"]} />
 		</div>
 	);
 };
